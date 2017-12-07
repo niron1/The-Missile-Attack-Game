@@ -1,0 +1,9 @@
+export const MOVE_LEFT = 'MOVE_LEFT';
+export const MOVE_RIGHT = 'MOVE_RIGHT';
+export const REST_IN_PLACE = 'REST_IN_PLACE';
+export const MISSLES_NEXT = 'MISSLES_NEXT';
+export const REMOVE_MISSLE = 'REMOVE_MISSLE';
+export const BOOM_MISSLE = 'BOOM_MISSLE';
+export const ADD_MISSLE = 'ADD_MISSLE';
+export const REDUCE_LIVES = 'REDUCE_LIVES';
+export const NEW_GAME = 'NEW_GAME';

@@ -1,0 +1,71 @@
+
+$height: 400;
+$width: 1000;
+$spriteSize: 64;
+
+.outerArea {
+  position: relative;
+  height: $height+'px';
+  width: 100%;
+  margin-top:10px;
+}
+.outerGameOver {
+  background-color: #aaa;
+}
+
+.gameArea {
+  width:#{$width}px;
+  height: #{$height - 50}px;
+  margin:20px auto;
+  border: 1px solid #aaa;
+  padding:10px;
+  position: relative;
+}
+
+.missle {
+  position: absolute;
+  width: #{$spriteSize}px;
+  height: #{$spriteSize}px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../assets/missle.png');
+}
+
+.missleBoom {
+  position: absolute;
+  width: #{$spriteSize}px;
+  height: #{$spriteSize}px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../assets/boom.png');
+}
+
+.face {
+  position: absolute;
+  top: #{$height - 128}px;
+  width: #{$spriteSize}px;
+  height: #{$spriteSize}px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.faceCenter {
+  @extend .face;
+  background-image: url('../assets/center.png');
+}
+.faceLeft {
+  @extend .face;
+  background-image: url('../assets/left.png');
+}
+.faceRight {
+  @extend .face;
+  background-image: url('../assets/right.png');
+}
+
+.livesArea {
+  width:#{$width}px;
+  height: 30px;
+  font-size:20px;
+  margin:20px auto;
+  position: relative;
+}
