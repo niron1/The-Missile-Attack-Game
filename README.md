@@ -17,7 +17,7 @@ Bonus Features (optional):
 5. Provide nice cheats to the game. Use your imagination   
 
 ## Implementation
-The requirement is for desktop only version.
+The requirement is for desktop only version.  
 The game should be written as SPA using React and Redux.  
 The state should be fully controlled. don't use setState -- everything should be controlled components.  
 Use free images from the web for the avatar and missile (don't invest time on this).  
