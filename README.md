@@ -1,5 +1,6 @@
 # The Missile Attack Game
 ### Front End Developer - Code Exercise
+First try to solve this yourself - use this source code as an assitance
 
 ## Game Flow
 
